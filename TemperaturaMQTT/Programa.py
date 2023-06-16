@@ -15,11 +15,11 @@ gc.collect()
 
 sensor = dht.DHT22(Pin(2))
 
-ssid = 'telekino-al-cubo'
-password = 'putoelquelee'
+ssid = 'ssid'
+password = 'clave'
 #mqtt_server = 'io.adafruit.com'
 
-mqtt_server = '168.226.218.194'
+mqtt_server = 'serverip'
 port = 8741
 client_id = 'grupo6_2'
 topic_sub = 'grupo6/topic_pub'
